@@ -1,2 +1,1 @@
-create in site1
-creating a new branch in quick & simple.
+create a new branch in quick and simple.
