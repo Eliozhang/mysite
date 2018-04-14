@@ -1,0 +1,2691 @@
+[09/Mar/2018 09:00:57] "GET /index/ HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:00:53
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:01:29] "GET /index/ HTTP/1.1" 200 44
+[09/Mar/2018 09:01:34] "GET /index/ HTTP/1.1" 200 44
+[09/Mar/2018 09:01:39] "GET /index/ HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:01:24
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x32b8de8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^polls/', cmdb.view.index),
+NameError: name 'cmdb' is not defined
+[09/Mar/2018 09:04:59] "GET /index/ HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:04:58
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:09:12
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x2dcdde8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url()
+TypeError: url() takes at least 2 arguments (0 given)
+Unhandled exception in thread started by <function wrapper at 0x27fcde8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^')
+TypeError: url() takes at least 2 arguments (1 given)
+Unhandled exception in thread started by <function wrapper at 0x245ede8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^polls')
+TypeError: url() takes at least 2 arguments (1 given)
+Unhandled exception in thread started by <function wrapper at 0x1b16de8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^polls/')
+TypeError: url() takes at least 2 arguments (1 given)
+Unhandled exception in thread started by <function wrapper at 0x276ade8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^polls/',include())
+TypeError: include() takes at least 1 argument (0 given)
+Unhandled exception in thread started by <function wrapper at 0x2573de8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 23, in <module>
+    url(r'^polls/',include('polls.'))
+  File "/usr/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 38, in import_module
+    return sys.modules[name]
+KeyError: 'polls.'
+[09/Mar/2018 09:17:57] "GET /index/ HTTP/1.1" 200 1546
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:17:49
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:19:22
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:19:50] "GET /index/ HTTP/1.1" 200 1666
+Internal Server Error: /test
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/pycharm/mysite/cmdb/views.py", line 24, in test
+    return HttpResponse("Hello,elio.This is your first Django project")
+NameError: global name 'HttpResponse' is not defined
+[09/Mar/2018 09:19:53] "GET /test HTTP/1.1" 500 62047
+Not Found: /polls
+[09/Mar/2018 09:20:02] "GET /polls HTTP/1.1" 404 2056
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:19:49
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:20:53] "GET /test HTTP/1.1" 301 0
+[09/Mar/2018 09:20:53] "GET /test HTTP/1.1" 301 0
+Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/pycharm/mysite/cmdb/views.py", line 24, in test
+    return HttpResponse("Hello,elio.This is your first Django project")
+NameError: global name 'HttpResponse' is not defined
+[09/Mar/2018 09:20:53] "GET /test/ HTTP/1.1" 500 62053
+[09/Mar/2018 09:21:05] "GET /index/ HTTP/1.1" 200 1786
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:20:49
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/pycharm/mysite/cmdb/views.py", line 24, in test
+    return HttpResponse("Hello,elio.This is your first Django project")
+NameError: global name 'HttpResponse' is not defined
+[09/Mar/2018 09:22:04] "GET /index/ HTTP/1.1" 500 62064
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:22:02
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x17a0de8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 22, in <module>
+    url(r'^index/', views.test()),
+TypeError: test() takes exactly 1 argument (0 given)
+[09/Mar/2018 09:22:24] "GET /index/ HTTP/1.1" 200 1906
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:22:20
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:23:49] "GET /index/ HTTP/1.1" 200 2026
+Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: test() takes no arguments (1 given)
+[09/Mar/2018 09:23:51] "GET /test/ HTTP/1.1" 500 59079
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:23:43
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/data/pycharm/mysite/cmdb/views.py", line 24, in test
+    return HttpResponse("Hello,elio.This is your first Django project")
+NameError: global name 'HttpResponse' is not defined
+[09/Mar/2018 09:26:53] "GET /test/ HTTP/1.1" 500 62047
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:26:48
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:27:13] "GET /test/ HTTP/1.1" 200 44
+Invalid HTTP_HOST header: '139.199.63.177:8000'. You may need to add u'139.199.63.177' to ALLOWED_HOSTS.
+[09/Mar/2018 09:27:28] "GET / HTTP/1.1" 400 60211
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[09/Mar/2018 09:27:29] "GET / HTTP/1.1" 500 59
+[2018-03-09 09:27:29,006] - Broken pipe from ('47.93.112.232', 5828)
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:27:11
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:27:40] "GET /index/ HTTP/1.1" 200 2146
+Internal Server Error: /test/
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: test() takes no arguments (1 given)
+[09/Mar/2018 09:27:45] "GET /test/ HTTP/1.1" 500 59079
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:27:38
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 09:28:07] "GET /index/ HTTP/1.1" 200 2266
+[09/Mar/2018 09:28:09] "GET /test/ HTTP/1.1" 200 44
+[09/Mar/2018 09:28:36] "GET /test?page=4 HTTP/1.1" 301 0
+[09/Mar/2018 09:28:36] "GET /test/?page=4 HTTP/1.1" 200 44
+[09/Mar/2018 09:28:40] "GET /index/?page=4 HTTP/1.1" 200 2386
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:27:57
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x2c3ede8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 255, in check
+    warnings.extend(check_resolver(pattern))
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 172, in check
+    warnings = self._check_pattern_startswith_slash()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 140, in _check_pattern_startswith_slash
+    regex_pattern = self.regex.pattern
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 93, in __get__
+    instance.__dict__['regex'] = self._compile(instance._regex)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 109, in _compile
+    (regex, six.text_type(e))
+django.core.exceptions.ImproperlyConfigured: "*te*/" is not a valid regular expression: nothing to repeat
+[09/Mar/2018 09:29:17] "GET /ate/?page=4 HTTP/1.1" 200 44
+Not Found: /fffte9/
+[09/Mar/2018 09:29:25] "GET /fffte9/?page=4 HTTP/1.1" 404 2069
+[09/Mar/2018 09:29:29] "GET /fffte/?page=4 HTTP/1.1" 200 44
+[09/Mar/2018 09:29:36] "GET /test?page=4 HTTP/1.1" 301 0
+[09/Mar/2018 09:29:36] "GET /test/?page=4 HTTP/1.1" 200 44
+Not Found: /ffftefd/
+[09/Mar/2018 09:29:40] "GET /ffftefd/?page=4 HTTP/1.1" 404 2072
+Not Found: /fffted/
+[09/Mar/2018 09:29:46] "GET /fffted/?page=4 HTTP/1.1" 404 2069
+Not Found: /ted/
+[09/Mar/2018 09:29:51] "GET /ted/?page=4 HTTP/1.1" 404 2060
+[09/Mar/2018 09:29:56] "GET /te/?page=4 HTTP/1.1" 200 44
+[09/Mar/2018 09:30:07] "GET /1111te/?page=4 HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:29:08
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Not Found: /1111te11/
+[09/Mar/2018 09:30:14] "GET /1111te11/?page=4 HTTP/1.1" 404 2074
+[09/Mar/2018 09:30:17] "GET /ate/?page=4 HTTP/1.1" 200 44
+[09/Mar/2018 09:30:18] "GET /1111te/?page=4 HTTP/1.1" 200 44
+Not Found: /1111te../
+[09/Mar/2018 09:30:23] "GET /1111te../?page=4 HTTP/1.1" 404 2074
+Not Found: /fffte9/
+[09/Mar/2018 09:30:25] "GET /fffte9/?page=4 HTTP/1.1" 404 2068
+[09/Mar/2018 09:30:29] "GET /fffte/?page=4 HTTP/1.1" 200 44
+Not Found: /ffftefd/
+[09/Mar/2018 09:30:40] "GET /ffftefd/?page=4 HTTP/1.1" 404 2071
+Not Found: /fffted/
+[09/Mar/2018 09:30:46] "GET /fffted/?page=4 HTTP/1.1" 404 2068
+Not Found: /ted/
+[09/Mar/2018 09:30:51] "GET /ted/?page=4 HTTP/1.1" 404 2059
+[09/Mar/2018 09:30:56] "GET /te/?page=4 HTTP/1.1" 200 44
+[09/Mar/2018 09:31:07] "GET /1111te/?page=4 HTTP/1.1" 200 44
+Not Found: /1111te../
+[09/Mar/2018 09:31:23] "GET /1111te../?page=4 HTTP/1.1" 404 2074
+Not Found: /ffftefd/
+[09/Mar/2018 09:32:57] "GET /ffftefd/?page=4 HTTP/1.1" 404 2071
+Not Found: /1111te../
+[09/Mar/2018 09:33:39] "GET /1111te../?page=4 HTTP/1.1" 404 2074
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 09:30:12
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 17:51:50
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x23cb6e0>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 85, in populate
+    app_config = AppConfig.create(entry)
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 94, in create
+    module = import_module(entry)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named cmdbpolls
+Unhandled exception in thread started by <function wrapper at 0x20dc6e0>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 85, in populate
+    app_config = AppConfig.create(entry)
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 94, in create
+    module = import_module(entry)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named cmdbpolls
+Not Found: /test/
+[09/Mar/2018 17:56:17] "GET /test/ HTTP/1.1" 404 2055
+[09/Mar/2018 17:56:20] "GET /te/ HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 17:56:10
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[09/Mar/2018 17:56:51] "GET /index HTTP/1.1" 301 0
+[09/Mar/2018 17:56:52] "GET /index/ HTTP/1.1" 200 2506
+[09/Mar/2018 17:56:53] "GET /static/js/jquery-1.12.4.js HTTP/1.1" 200 304436
+[09/Mar/2018 17:57:40] "GET /index/ HTTP/1.1" 200 2626
+[09/Mar/2018 17:57:49] "GET /index/ HTTP/1.1" 200 2746
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 09, 2018 - 17:56:40
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/lib/python2.7/site-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/usr/lib/python2.7/site-packages/django/core/management/__init__.py", line 308, in execute
+    settings.INSTALLED_APPS
+  File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/settings.py", line 96
+    AUTH_PASSWORD_VALIDATORS = [
+                           ^
+SyntaxError: invalid syntax
+[26/Mar/2018 13:12:13] "GET /polls/ HTTP/1.1" 200 44
+[26/Mar/2018 14:14:52] "GET /polls/ HTTP/1.1" 200 44
+Not Found: /struts2-rest-showcase/orders.xhtml
+[26/Mar/2018 14:20:02] "GET /struts2-rest-showcase/orders.xhtml HTTP/1.1" 404 2146
+Not Found: /index.action
+[26/Mar/2018 14:20:02] "GET /index.action HTTP/1.1" 404 2080
+Not Found: /index.do
+[26/Mar/2018 14:20:03] "GET /index.do HTTP/1.1" 404 2068
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 13:12:07
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x20930c8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/model_checks.py", line 30, in check_all_models
+    errors.extend(model.check(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 1284, in check
+    errors.extend(cls._check_fields(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 1359, in _check_fields
+    errors.extend(field.check(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 913, in check
+    errors = super(AutoField, self).check(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 219, in check
+    errors.extend(self._check_backend_specific_checks(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 322, in _check_backend_specific_checks
+    return connections[db].validation.check_field(self, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/validation.py", line 49, in check_field
+    field_type = field.db_type(self.connection)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib64/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (1049, "Unknown database 'mysite'")
+Unhandled exception in thread started by <function wrapper at 0x232e320>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/model_checks.py", line 30, in check_all_models
+    errors.extend(model.check(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 1284, in check
+    errors.extend(cls._check_fields(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/base.py", line 1359, in _check_fields
+    errors.extend(field.check(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 913, in check
+    errors = super(AutoField, self).check(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 219, in check
+    errors.extend(self._check_backend_specific_checks(**kwargs))
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 322, in _check_backend_specific_checks
+    return connections[db].validation.check_field(self, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/validation.py", line 49, in check_field
+    field_type = field.db_type(self.connection)
+  File "/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/usr/lib64/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (1049, "Unknown database 'mysite'")
+[26/Mar/2018 15:53:03] "GET /polls/ HTTP/1.1" 200 44
+Invalid HTTP_HOST header: '139.199.82.254:8000'. You may need to add u'139.199.82.254' to ALLOWED_HOSTS.
+[26/Mar/2018 17:27:00] "GET / HTTP/1.1" 400 60333
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[26/Mar/2018 17:27:00] "GET / HTTP/1.1" 500 59
+[2018-03-26 17:27:00,413] - Broken pipe from ('116.62.176.205', 39870)
+
+[26/Mar/2018 19:44:16] "GET /polls/ HTTP/1.1" 200 44
+[26/Mar/2018 19:44:18] "GET /polls/ HTTP/1.1" 200 44
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 15:53:00
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x1c52320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+Unhandled exception in thread started by <function wrapper at 0x28ef320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+Unhandled exception in thread started by <function wrapper at 0x2c2b320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 17
+    votes = models.IntegerField(defau   lt=0)
+                                         ^
+SyntaxError: invalid syntax
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 17
+    votes = models.IntegerField(defau   lt=0)
+                                         ^
+SyntaxError: invalid syntax
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 17
+    votes = models.IntegerField(defau   lt=0)
+                                         ^
+SyntaxError: invalid syntax
+Error: That port is already in use.
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:03:17
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x200e320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 18
+    def 
+       ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x2365320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 18
+    def __
+         ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x2580320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 18
+    def __str__
+              ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1a55320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 19
+    
+                           ^
+IndentationError: expected an indented block
+Unhandled exception in thread started by <function wrapper at 0x19c4320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 19
+    
+                          ^
+IndentationError: expected an indented block
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:03:37
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:03:59
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:04:20
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x213e320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 9
+    from    
+           ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x2e5d320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 9
+    from django.
+               ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1d28320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 9
+    from django.utils
+                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1915320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 9
+    from django.utils import 
+                            ^
+SyntaxError: invalid syntax
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:04:54
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x2780320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def 
+       ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x30ea320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def was_
+           ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1b5c320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def was_pub
+              ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1663320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def was_published
+                    ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1e30320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def was_published_recent
+                           ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x3327320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 16
+    def was_published_recently
+                             ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x353d320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 19
+    class Choise(models.Model):
+    ^
+IndentationError: expected an indented block
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:33
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:37
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:39
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x1e79320>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 17
+    return self.pub_date >= 
+                           ^
+SyntaxError: invalid syntax
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:47
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:50
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:54
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:05:56
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:06:05
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:06:31
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:07:11
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:07:24
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x290fb90>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/models.py", line 11, in <module>
+    @python_2_unicode_compatible
+NameError: name 'python_2_unicode_compatible' is not defined
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:08:22
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:49:08
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 20:49:24
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[26/Mar/2018 21:15:50] "GET /polls/ HTTP/1.1" 200 44
+Not Found: /admin/
+[26/Mar/2018 21:15:53] "GET /admin/ HTTP/1.1" 404 2062
+[26/Mar/2018 21:15:58] "GET /my/set HTTP/1.1" 301 0
+[26/Mar/2018 21:15:58] "GET /my/set/ HTTP/1.1" 302 0
+[26/Mar/2018 21:15:58] "GET /my/set/login/?next=/my/set/ HTTP/1.1" 200 1658
+[26/Mar/2018 21:16:58] "GET /my/set/login/?next=/my/set HTTP/1.1" 200 1656
+[26/Mar/2018 21:16:58] "GET /my/set HTTP/1.1" 301 0
+[26/Mar/2018 21:17:10] "GET /my/set/login/?next=/my/set/ HTTP/1.1" 200 1658
+[26/Mar/2018 21:17:17] "POST /my/set/login/?next=/my/set/ HTTP/1.1" 302 0
+[26/Mar/2018 21:17:17] "GET /my/set/ HTTP/1.1" 200 2797
+[26/Mar/2018 21:17:42] "GET /my/set/auth/user/ HTTP/1.1" 200 6484
+[26/Mar/2018 21:17:42] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:17:42] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[26/Mar/2018 21:17:42] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[26/Mar/2018 21:17:42] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[26/Mar/2018 21:17:42] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[26/Mar/2018 21:17:42] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[26/Mar/2018 21:17:42] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[26/Mar/2018 21:17:42] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[26/Mar/2018 21:17:42] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[26/Mar/2018 21:17:44] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[26/Mar/2018 21:17:45] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[26/Mar/2018 21:17:45] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[26/Mar/2018 21:17:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[26/Mar/2018 21:17:45] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[26/Mar/2018 21:17:58] "GET /my/set/ HTTP/1.1" 200 2797
+[26/Mar/2018 21:17:59] "GET /my/set/auth/group/ HTTP/1.1" 200 3394
+[26/Mar/2018 21:17:59] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:18:01] "GET /my/set/ HTTP/1.1" 200 2797
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 21:15:44
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x2d24b18>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 7
+    from django
+              ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x2793b18>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 7
+    from django.contrib
+                      ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x2038b18>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 7
+    from django.contrib import 
+                              ^
+SyntaxError: invalid syntax
+[26/Mar/2018 21:18:59] "GET /my/set/auth/group HTTP/1.1" 301 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 21:18:45
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 21:19:02
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 21:19:08
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x2a3db18>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 10
+    admin.site.
+              ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x1937b18>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 10
+    admin.
+         ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x29bc398>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/lib/python2.7/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/lib/python2.7/site-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/polls/admin.py", line 10, in <module>
+    admin.site.register()
+TypeError: register() takes at least 2 arguments (1 given)
+[26/Mar/2018 21:19:42] "GET /my/set/ HTTP/1.1" 200 3446
+[26/Mar/2018 21:19:51] "GET /my/set/polls/question/ HTTP/1.1" 200 4443
+[26/Mar/2018 21:19:51] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:19:54] "GET /my/set/polls/question/1/change/ HTTP/1.1" 200 4990
+[26/Mar/2018 21:19:54] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[26/Mar/2018 21:19:54] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[26/Mar/2018 21:19:54] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[26/Mar/2018 21:19:54] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[26/Mar/2018 21:19:54] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:19:54] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[26/Mar/2018 21:19:54] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[26/Mar/2018 21:19:54] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[26/Mar/2018 21:19:54] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[26/Mar/2018 21:20:01] "GET /my/set/polls/question/ HTTP/1.1" 200 4443
+[26/Mar/2018 21:20:02] "GET /my/set/polls/question/3/change/ HTTP/1.1" 200 4992
+[26/Mar/2018 21:20:03] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:20:06] "GET /my/set/polls/question/ HTTP/1.1" 200 4443
+[26/Mar/2018 21:20:07] "GET /my/set/polls/question/1/change/ HTTP/1.1" 200 4990
+[26/Mar/2018 21:20:07] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:20:46] "POST /my/set/polls/question/1/change/ HTTP/1.1" 302 0
+[26/Mar/2018 21:20:46] "GET /my/set/polls/question/ HTTP/1.1" 200 4637
+[26/Mar/2018 21:20:46] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:20:51] "GET /my/set/polls/question HTTP/1.1" 301 0
+[26/Mar/2018 21:20:54] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[26/Mar/2018 21:20:54] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[26/Mar/2018 21:20:54] "GET /my/set/polls/question/1/change HTTP/1.1" 301 0
+[26/Mar/2018 21:20:54] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[26/Mar/2018 21:21:02] "GET /my/set/polls/question/3/change HTTP/1.1" 301 0
+[26/Mar/2018 21:22:07] "GET /my/set/ HTTP/1.1" 200 3779
+[26/Mar/2018 21:22:34] "GET /my/set/polls/question/ HTTP/1.1" 200 4443
+[26/Mar/2018 21:22:34] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:22:37] "GET /my/set/polls/question/3/change/ HTTP/1.1" 200 4992
+[26/Mar/2018 21:22:37] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:22:38] "GET /my/set/polls/question/3/history/ HTTP/1.1" 200 1793
+[26/Mar/2018 21:22:40] "GET /my/set/polls/question/3/change/ HTTP/1.1" 200 4992
+[26/Mar/2018 21:22:41] "GET /my/set/polls/question/ HTTP/1.1" 200 4443
+[26/Mar/2018 21:22:42] "GET /my/set/polls/question/1/change/ HTTP/1.1" 200 4990
+[26/Mar/2018 21:22:42] "GET /my/set/jsi18n/ HTTP/1.1" 200 3217
+[26/Mar/2018 21:22:43] "GET /my/set/polls/question/1/history/ HTTP/1.1" 200 2123
+[26/Mar/2018 21:23:07] "GET /my/set HTTP/1.1" 301 0
+[26/Mar/2018 21:23:38] "GET /my/set/polls/question/3/history HTTP/1.1" 301 0
+[26/Mar/2018 21:23:43] "GET /my/set/polls/question/1/history HTTP/1.1" 301 0
+[26/Mar/2018 21:37:44] "GET /my/set/polls/question/1/change HTTP/1.1" 301 0
+[26/Mar/2018 21:37:49] "GET /my/set/polls/question/1/change/ HTTP/1.1" 302 0
+[26/Mar/2018 21:37:56] "GET /my/set/login/?next=/my/set/polls/question/1/change/ HTTP/1.1" 200 1706
+Not Found: /
+[26/Mar/2018 22:11:37] "GET / HTTP/1.1" 404 2026
+Invalid HTTP_HOST header: u'localhost.localdomain:8000'. You may need to add u'localhost.localdomain' to ALLOWED_HOSTS.
+[26/Mar/2018 22:33:23] "GET / HTTP/1.0" 400 59572
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[26/Mar/2018 23:43:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59839
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[26/Mar/2018 23:43:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-26 23:43:22,781] - Broken pipe from ('80.82.78.50', 37665)
+
+[26/Mar/2018 23:58:40] "GET /my/set/login/?next%3D/my/set/polls/question/1/change HTTP/1.1" 200 1683
+[27/Mar/2018 00:19:12] "GET /my/set/auth/group HTTP/1.1" 301 0
+[27/Mar/2018 00:19:12] "GET /my/set/auth/group/ HTTP/1.0" 302 0
+[27/Mar/2018 00:19:12] "GET /my/set/login/?next=/my/set/auth/group/ HTTP/1.0" 200 1680
+Invalid HTTP_HOST header: '139.199.205.94:8000'. You may need to add u'139.199.205.94' to ALLOWED_HOSTS.
+[27/Mar/2018 01:25:27] "GET / HTTP/1.1" 400 60312
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[27/Mar/2018 01:25:27] "GET / HTTP/1.1" 500 59
+[2018-03-27 01:25:27,177] - Broken pipe from ('47.93.112.232', 16473)
+
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add u'www.qq.com' to ALLOWED_HOSTS.
+[27/Mar/2018 06:02:10] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 400 60849
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[27/Mar/2018 06:02:10] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 500 59
+[2018-03-27 06:02:10,230] - Broken pipe from ('120.132.3.65', 46012)
+
+[27/Mar/2018 06:02:15] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[27/Mar/2018 06:02:15] " PpTi4 " 400 -
+[27/Mar/2018 06:02:15] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Mar/2018 06:02:15] " " 400 -
+[27/Mar/2018 17:38:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[27/Mar/2018 22:49:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60749
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[27/Mar/2018 22:49:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-27 22:49:32,612] - Broken pipe from ('80.82.78.50', 35941)
+
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add u'www.123cha.com' to ALLOWED_HOSTS.
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.bing.com'. You may need to add u'www.bing.com' to ALLOWED_HOSTS.
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[28/Mar/2018 05:40:26] "GET http://www.bing.com/ HTTP/1.1" 400 60769
+[28/Mar/2018 05:40:27] "GET http://www.baidu.com/ HTTP/1.1" 400 60797
+[28/Mar/2018 05:40:27] "GET http://www.123cha.com/ HTTP/1.1" 400 60824
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: 'wujieliulan.com'. You may need to add u'wujieliulan.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: u'localhost.localdomain:8000'. You may need to add u'localhost.localdomain' to ALLOWED_HOSTS.
+[28/Mar/2018 05:40:27] "GET http://wujieliulan.com/ HTTP/1.1" 400 60849
+[28/Mar/2018 05:40:28] "CONNECT www.voanews.com:443 HTTP/1.0" 400 60251
+[28/Mar/2018 06:47:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[28/Mar/2018 09:02:17] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60752
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[28/Mar/2018 09:02:17] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-28 09:02:17,500] - Broken pipe from ('172.82.166.210', 33311)
+
+Invalid HTTP_HOST header: '182.254.150.120:8000'. You may need to add u'182.254.150.120' to ALLOWED_HOSTS.
+[28/Mar/2018 09:26:36] "GET / HTTP/1.1" 400 60328
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[28/Mar/2018 09:26:36] "GET / HTTP/1.1" 500 59
+[2018-03-28 09:26:36,943] - Broken pipe from ('47.92.2.1', 45504)
+
+[28/Mar/2018 12:43:23] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[28/Mar/2018 13:14:55] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[28/Mar/2018 16:01:20] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '139.199.92.160:8000'. You may need to add u'139.199.92.160' to ALLOWED_HOSTS.
+[28/Mar/2018 17:26:58] "GET / HTTP/1.1" 400 60313
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[28/Mar/2018 17:26:58] "GET / HTTP/1.1" 500 59
+[2018-03-28 17:26:58,780] - Broken pipe from ('47.92.2.1', 53142)
+
+[28/Mar/2018 17:48:54] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[28/Mar/2018 20:54:51] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[28/Mar/2018 21:04:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60749
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[28/Mar/2018 21:04:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-28 21:04:12,993] - Broken pipe from ('80.82.78.50', 39366)
+
+[28/Mar/2018 21:09:10] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 00:15:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 00:43:42] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '180.163.113.82'. You may need to add u'180.163.113.82' to ALLOWED_HOSTS.
+[29/Mar/2018 01:24:15] "HEAD http://180.163.113.82/check_proxy HTTP/1.1" 400 60503
+Invalid HTTP_HOST header: '139.199.3.120:8000'. You may need to add u'139.199.3.120' to ALLOWED_HOSTS.
+[29/Mar/2018 01:37:33] "GET / HTTP/1.1" 400 60303
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[29/Mar/2018 01:37:33] "GET / HTTP/1.1" 500 59
+[2018-03-29 01:37:33,186] - Broken pipe from ('116.62.176.205', 6065)
+
+[29/Mar/2018 02:38:43] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 04:10:35] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 06:09:15] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 08:19:40] code 400, message Bad request syntax ('\x04\x01\x00P\xb4\xa3qR\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb4 in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 08:21:59] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[29/Mar/2018 08:21:59] " " 400 -
+[29/Mar/2018 08:51:32] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '140.143.155.22:8000'. You may need to add u'140.143.155.22' to ALLOWED_HOSTS.
+[29/Mar/2018 09:28:33] "GET / HTTP/1.1" 400 60317
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[29/Mar/2018 09:28:33] "GET / HTTP/1.1" 500 59
+[2018-03-29 09:28:33,246] - Broken pipe from ('47.93.112.232', 32872)
+
+[29/Mar/2018 10:41:25] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 12:17:16] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[29/Mar/2018 14:33:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '139.199.58.86:8000'. You may need to add u'139.199.58.86' to ALLOWED_HOSTS.
+[29/Mar/2018 17:37:08] "GET / HTTP/1.1" 400 60298
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[29/Mar/2018 17:37:08] "GET / HTTP/1.1" 500 59
+[2018-03-29 17:37:08,065] - Broken pipe from ('47.92.2.1', 46606)
+
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[29/Mar/2018 19:45:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60749
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[29/Mar/2018 19:45:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-29 19:45:33,478] - Broken pipe from ('80.82.78.50', 41332)
+
+Not Found: /
+[29/Mar/2018 21:12:50] "GET / HTTP/1.1" 404 2026
+Invalid HTTP_HOST header: u'localhost.localdomain:8000'. You may need to add u'localhost.localdomain' to ALLOWED_HOSTS.
+[29/Mar/2018 22:39:42] "GET / HTTP/1.0" 400 60020
+Not Found: /
+[29/Mar/2018 23:46:01] "GET / HTTP/1.1" 404 2026
+Invalid HTTP_HOST header: '139.199.33.72:8000'. You may need to add u'139.199.33.72' to ALLOWED_HOSTS.
+[30/Mar/2018 01:28:03] "GET / HTTP/1.1" 400 60301
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[30/Mar/2018 01:28:03] "GET / HTTP/1.1" 500 59
+[2018-03-30 01:28:03,273] - Broken pipe from ('59.110.6.177', 35756)
+
+Invalid HTTP_HOST header: 'www.qq.com'. You may need to add u'www.qq.com' to ALLOWED_HOSTS.
+[30/Mar/2018 06:21:46] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 400 60844
+[2018-03-30 06:21:46,197] - Broken pipe from ('120.132.3.65', 51078)
+
+[30/Mar/2018 06:21:50] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[30/Mar/2018 06:21:50] " PpTi4 " 400 -
+[30/Mar/2018 06:21:50] code 400, message Bad request syntax ('\x05\x01\x00')
+[30/Mar/2018 06:21:50] " " 400 -
+Invalid HTTP_HOST header: '139.199.34.217:8000'. You may need to add u'139.199.34.217' to ALLOWED_HOSTS.
+[30/Mar/2018 09:30:08] "GET / HTTP/1.1" 400 60318
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[30/Mar/2018 09:30:08] "GET / HTTP/1.1" 500 59
+[2018-03-30 09:30:08,015] - Broken pipe from ('114.215.45.101', 14788)
+
+Not Found: /manager/html
+[30/Mar/2018 17:03:13] "GET /manager/html HTTP/1.1" 404 2080
+Invalid HTTP_HOST header: '139.199.28.94:8000'. You may need to add u'139.199.28.94' to ALLOWED_HOSTS.
+[30/Mar/2018 17:29:34] "GET / HTTP/1.1" 400 60071
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[30/Mar/2018 17:29:34] "GET / HTTP/1.1" 500 59
+[2018-03-30 17:29:34,019] - Broken pipe from ('114.215.45.79', 13931)
+
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[30/Mar/2018 18:19:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60744
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[30/Mar/2018 18:19:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-30 18:19:31,906] - Broken pipe from ('80.82.78.50', 48675)
+
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add u'www.123cha.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.bing.com'. You may need to add u'www.bing.com' to ALLOWED_HOSTS.
+[30/Mar/2018 20:36:27] "GET http://www.123cha.com/ HTTP/1.1" 400 60590
+[30/Mar/2018 20:36:27] "GET http://www.baidu.com/ HTTP/1.1" 400 60349
+[30/Mar/2018 20:36:27] "GET http://www.bing.com/ HTTP/1.1" 400 60076
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: 'wujieliulan.com'. You may need to add u'wujieliulan.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: u'localhost.localdomain:8000'. You may need to add u'localhost.localdomain' to ALLOWED_HOSTS.
+[30/Mar/2018 20:36:31] "GET http://wujieliulan.com/ HTTP/1.1" 400 60618
+[30/Mar/2018 20:36:31] "CONNECT www.voanews.com:443 HTTP/1.0" 400 59807
+[30/Mar/2018 23:57:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '139.199.58.88:8000'. You may need to add u'139.199.58.88' to ALLOWED_HOSTS.
+[31/Mar/2018 01:30:48] "GET / HTTP/1.1" 400 60301
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Mar/2018 01:30:48] "GET / HTTP/1.1" 500 59
+[2018-03-31 01:30:48,128] - Broken pipe from ('47.93.90.175', 46603)
+
+Invalid HTTP_HOST header: u'localhost.localdomain:8000'. You may need to add u'localhost.localdomain' to ALLOWED_HOSTS.
+[31/Mar/2018 05:40:02] "GET / HTTP/1.0" 400 60020
+Invalid HTTP_HOST header: '140.143.245.76:8000'. You may need to add u'140.143.245.76' to ALLOWED_HOSTS.
+[31/Mar/2018 09:28:30] "GET / HTTP/1.1" 400 60313
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Mar/2018 09:28:30] "GET / HTTP/1.1" 500 59
+[2018-03-31 09:28:30,289] - Broken pipe from ('47.92.2.1', 49773)
+
+[31/Mar/2018 11:18:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[31/Mar/2018 13:39:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[31/Mar/2018 16:05:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[31/Mar/2018 17:10:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60752
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Mar/2018 17:10:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-03-31 17:10:49,071] - Broken pipe from ('172.82.166.210', 51559)
+
+Invalid HTTP_HOST header: '182.254.132.228:8000'. You may need to add u'182.254.132.228' to ALLOWED_HOSTS.
+[31/Mar/2018 17:30:25] "GET / HTTP/1.1" 400 60332
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Mar/2018 17:30:25] "GET / HTTP/1.1" 500 59
+[2018-03-31 17:30:25,614] - Broken pipe from ('114.215.45.79', 9710)
+
+Not Found: /manager/html
+[31/Mar/2018 23:20:58] "GET /manager/html HTTP/1.1" 404 2080
+[31/Mar/2018 23:20:58] code 400, message Bad request syntax ('\x16\x03\x01\x00A\x01\x00\x00=\x03\x01Z\xbf\xaa\xc4\xe5\xad\xcd\xdb\x89u\xc9$\xae\x1d\x9dte\xdcZ\x06\x97??\x96\xfd\xb6\xf4\\l\x8e\xa0\xbc\x00\x00\x16\x00\x04\x00\x05\x00')
+[31/Mar/2018 23:20:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2018 23:20:58] code 400, message Bad request syntax ('\x16\x03\x01\x00A\x01\x00\x00=\x03\x01Z\xbf\xaa\xc4\x1c+ro5\xb7\x91\x92\xbai\xa3\x81\x99B\xd3\xb9\x0e(\xdf\xe0\x8c\xc3\x8b{')
+[31/Mar/2018 23:20:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '139.199.75.197:8000'. You may need to add u'139.199.75.197' to ALLOWED_HOSTS.
+[01/Apr/2018 01:28:10] "GET / HTTP/1.1" 400 59855
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[01/Apr/2018 01:28:10] "GET / HTTP/1.1" 500 59
+[2018-04-01 01:28:10,052] - Broken pipe from ('114.215.45.101', 43783)
+
+Not Found: /manager/html
+[01/Apr/2018 02:17:51] "GET /manager/html HTTP/1.1" 404 2080
+Invalid HTTP_HOST header: '139.199.14.100:8000'. You may need to add u'139.199.14.100' to ALLOWED_HOSTS.
+[01/Apr/2018 09:28:13] "GET / HTTP/1.1" 400 60312
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[01/Apr/2018 09:28:13] "GET / HTTP/1.1" 500 59
+[2018-04-01 09:28:13,611] - Broken pipe from ('47.92.2.1', 49753)
+
+Invalid HTTP_HOST header: '139.219.106.96:11000'. You may need to add u'139.219.106.96' to ALLOWED_HOSTS.
+[01/Apr/2018 10:33:50] "GET http://139.219.106.96:11000/1qiWaz2wRsx3eXdc4rDfv5tgb6yhn7Uujm8Lik999 HTTP/1.1" 400 61347
+[2018-04-01 10:33:50,402] - Broken pipe from ('139.219.98.156', 51180)
+
+Not Found: /manager/html
+[01/Apr/2018 11:22:22] "GET /manager/html HTTP/1.1" 404 2080
+[01/Apr/2018 11:22:22] code 400, message Bad request syntax ('\x16\x03\x01\x00A\x01\x00\x00=\x03\x01Z\xc0S\xd8\xd2?\xb2\x81|c\x9f-\xf1`_\xc1\xf9>\x19\x7fQp\xe9\xd4$\xb1\x9f\xb6\x84\x92\xf2\x10\x00\x00\x16\x00\x04\x00\x05\x00')
+[01/Apr/2018 11:22:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2018 11:22:22] code 400, message Bad request syntax ("\x16\x03\x01\x00A\x01\x00\x00=\x03\x01Z\xc0S\xd82\xc6y:''\xcf=\x11^\xcbw\xce\xd8\xf8\xab\x1d\x91\xc5\\\xc7\xd0\x9f\xceo%.\xf7\x00\x00\x16\x00\x04\x00\x05\x00")
+[01/Apr/2018 11:22:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[01/Apr/2018 15:35:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60748
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[01/Apr/2018 15:35:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-04-01 15:35:21,364] - Broken pipe from ('80.82.78.50', 40075)
+
+Invalid HTTP_HOST header: '139.199.78.32:8000'. You may need to add u'139.199.78.32' to ALLOWED_HOSTS.
+[01/Apr/2018 17:32:34] "GET / HTTP/1.1" 400 60296
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[01/Apr/2018 17:32:34] "GET / HTTP/1.1" 500 59
+[2018-04-01 17:32:34,453] - Broken pipe from ('47.93.112.232', 48158)
+
+Not Found: /
+[01/Apr/2018 19:30:07] "GET / HTTP/1.1" 404 2026
+Invalid HTTP_HOST header: '139.199.14.144:8000'. You may need to add u'139.199.14.144' to ALLOWED_HOSTS.
+[02/Apr/2018 03:24:17] "GET / HTTP/1.1" 400 60316
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[02/Apr/2018 03:24:17] "GET / HTTP/1.1" 500 59
+[2018-04-02 03:24:17,184] - Broken pipe from ('114.215.45.79', 64550)
+
+Invalid HTTP_HOST header: '192.144.132.74:8000'. You may need to add u'192.144.132.74' to ALLOWED_HOSTS.
+[02/Apr/2018 09:29:17] "GET / HTTP/1.1" 400 60312
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[02/Apr/2018 09:29:17] "GET / HTTP/1.1" 500 59
+[2018-04-02 09:29:17,248] - Broken pipe from ('47.92.2.1', 16219)
+
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[02/Apr/2018 14:06:41] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 60748
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[02/Apr/2018 14:06:41] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 500 59
+[2018-04-02 14:06:41,637] - Broken pipe from ('80.82.78.50', 47244)
+
+Invalid HTTP_HOST header: '139.199.92.75:8000'. You may need to add u'139.199.92.75' to ALLOWED_HOSTS.
+[02/Apr/2018 17:31:13] "GET / HTTP/1.1" 400 60070
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib64/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib64/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib64/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[02/Apr/2018 17:31:13] "GET / HTTP/1.1" 500 59
+[2018-04-02 17:31:13,693] - Broken pipe from ('114.215.45.79', 27718)
+
+Not Found: /index
+[02/Apr/2018 20:38:52] "GET /index HTTP/1.1" 404 2059
+Not Found: /favicon.ico
+[02/Apr/2018 20:38:52] "GET /favicon.ico HTTP/1.1" 404 2077
+Not Found: /
+[02/Apr/2018 20:38:56] "GET / HTTP/1.1" 404 2026
+[02/Apr/2018 20:39:01] "GET /polls/ HTTP/1.1" 200 44
+Not Found: /index
+[02/Apr/2018 20:39:52] "GET /index HTTP/1.1" 404 2059
+Not Found: /
+[02/Apr/2018 20:39:56] "GET / HTTP/1.1" 404 2026
+[02/Apr/2018 20:40:01] "GET /polls HTTP/1.1" 301 0
+Not Found: /pol
+[02/Apr/2018 20:41:24] "GET /pol HTTP/1.1" 404 2053
+[02/Apr/2018 20:41:31] "GET /my/set/ HTTP/1.1" 200 3779
+[02/Apr/2018 20:41:31] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[02/Apr/2018 20:41:31] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[02/Apr/2018 20:41:31] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[02/Apr/2018 20:41:31] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[02/Apr/2018 20:41:31] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[02/Apr/2018 20:41:31] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[02/Apr/2018 20:41:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[02/Apr/2018 20:41:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /pol
+[02/Apr/2018 20:42:24] "GET /pol HTTP/1.1" 404 2053
+[02/Apr/2018 20:42:31] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[02/Apr/2018 20:42:31] "GET /my/set HTTP/1.1" 301 0
+[02/Apr/2018 20:42:31] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[02/Apr/2018 20:42:31] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[02/Apr/2018 20:42:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[02/Apr/2018 20:42:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[02/Apr/2018 20:42:32] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[02/Apr/2018 20:42:33] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[02/Apr/2018 20:42:33] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 26, 2018 - 21:19:36
+Django version 1.11.8, using settings 'untitled1.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('60.1.121.116', 1819)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('1.31.59.220', 32728)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('58.48.139.92', 48546)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('221.11.231.197', 3820)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.24.122.9', 8283)
+----------------------------------------
+Exception happened during processing of request from ('27.156.88.111', 8369)
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('171.120.148.4', 59874)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('106.45.1.197', 34298)
+----------------------------------------
+Unhandled exception in thread started by <function wrapper at 0x24b8488>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/data/pycharm/mysite/untitled1/urls.py", line 21, in <module>
+    url(r'^cmdb/', include('cmdb.urls')),
+  File "/usr/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named urls
