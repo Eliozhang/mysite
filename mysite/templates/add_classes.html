@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/polls/add_classes.html" method="POST">
+    {% csrf_token %}
+    <p>title:</p>
+    <input type="text" name="title" value="title" />
+    <p>author:</p>
+    <input type="text" name="author" value="author" />
+    <p>date:</p>
+    <p>use the date when you add</p>
+    <input type="submit" value="提交" />
+</form>
+</body>
+</html>

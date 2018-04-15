@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <form action="/polls/find_classes.html" method="POST">
+        {% csrf_token %}
+    <p>title:</p>    
+    <input type="text" name="title" value="{{ obj.title }}" />
+    <p>author:</p>
+    <input type="text" name="author" value="{{ obj.author }}" />
+    <p>date:</p>
+    <input type="text" name="date" value="{{ obj.date }}" />
+    <input type="submit" value="查找"/>
+</form>
+</body>
+</html>

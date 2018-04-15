@@ -1,0 +1,56 @@
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c8;
+}
+</style>
+
+<div>
+    <a href="/polls/add_classes.html">添加</a>
+    <a href="/polls/find_classes.html">查找</a>
+    <a href="/polls/get_classes.html">返回</a>
+</div>
+
+
+<!-- Table goes in the document BODY -->
+<table class="hovertable">
+<tr>
+	<th>ID</th><th>书名</th><th>作家</th><th>添加时间</th><th>操作</th>
+</tr>
+        {% for row in cls_list %}
+            <tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+                <td>{{ row.id }}</td>
+                <td>{{ row.title }}</td>
+                <td>{{ row.author }}</td>
+                <td>{{ row.date }}</td>
+                <td>
+                    <a href="/polls//del_classes.html?nid={{ row.id }}">删除</a>
+                    |
+                    <a href="/polls/edit_classes.html?nid={{ row.id }}">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+</table>
+
